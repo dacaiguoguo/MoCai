@@ -13,6 +13,7 @@
 - (void)dealloc
 {
     [_window release];
+    [_iTabBarViewController release];
     [super dealloc];
 }
 
@@ -22,8 +23,13 @@
     // Override point for customization after application launch.
     
     UIViewController *viewController = [[NSClassFromString(RootClass) alloc] initWithNibName:RootClass bundle:nil];
-    self.window.rootViewController = viewController;
+    UINavigationController *iNavController = [[UINavigationController alloc] initWithRootViewController:viewController];
     [viewController release];
+    
+    self.iTabBarViewController = [[[UITabBarController alloc] init] autorelease];
+    _iTabBarViewController.viewControllers = @[iNavController];
+    [iNavController release];
+    self.window.rootViewController = _iTabBarViewController;
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
