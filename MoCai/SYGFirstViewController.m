@@ -1,24 +1,23 @@
 //
-//  SYGViewController.m
+//  SYGFirstViewController.m
 //  MoCai
 //
 //  Created by YangBin on 13-3-27.
 //  Copyright (c) 2013年 dacaiguoguo. All rights reserved.
 //
 
-#import "SYGViewController.h"
+#import "SYGFirstViewController.h"
 
-@interface SYGViewController ()
+@interface SYGFirstViewController ()
 
 @end
 
-@implementation SYGViewController
+@implementation SYGFirstViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
-        self.title = @"Home";
     }
     return self;
 }
@@ -26,6 +25,11 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    self.title = @"Home";
+
+    self.iC = [[[SYGHomeHeriController alloc] init] autorelease];
+    [self.view addSubview:_iC.view];
+    
     // Do any additional setup after loading the view from its nib.
 }
 

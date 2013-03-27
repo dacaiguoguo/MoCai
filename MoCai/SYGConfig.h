@@ -6,4 +6,5 @@
 //  Copyright (c) 2013年 dacaiguoguo. All rights reserved.
 //
 
-#define RootClass @"SYGViewController"
+#define RootClass @"SYGFirstViewController"
+#define ttClass @"SYGConentViewController"

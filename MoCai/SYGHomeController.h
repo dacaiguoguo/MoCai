@@ -1,13 +1,13 @@
 //
-//  SYGViewController.h
+//  SYGHomeController.h
 //  MoCai
 //
 //  Created by YangBin on 13-3-27.
 //  Copyright (c) 2013年 dacaiguoguo. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
 
-@interface SYGViewController : UIViewController
-
+@interface SYGHomeController : NSObject
+- (UIView *)view;
 @end

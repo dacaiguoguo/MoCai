@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		020677201702F96800754689 /* SYGConentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0206771E1702F96800754689 /* SYGConentViewController.m */; };
+		020677211702F96800754689 /* SYGConentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0206771F1702F96800754689 /* SYGConentViewController.xib */; };
 		029B39EF1702D870008EBBAD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 029B39EE1702D870008EBBAD /* UIKit.framework */; };
 		029B39F11702D870008EBBAD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 029B39F01702D870008EBBAD /* Foundation.framework */; };
 		029B39F31702D870008EBBAD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 029B39F21702D870008EBBAD /* CoreGraphics.framework */; };
@@ -16,13 +18,16 @@
 		029B3A151702D870008EBBAD /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 029B3A141702D870008EBBAD /* Default.png */; };
 		029B3A171702D870008EBBAD /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 029B3A161702D870008EBBAD /* Default@2x.png */; };
 		029B3A191702D870008EBBAD /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 029B3A181702D870008EBBAD /* Default-568h@2x.png */; };
-		029B3A271702D979008EBBAD /* SYGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 029B3A251702D979008EBBAD /* SYGViewController.m */; };
-		029B3A281702D979008EBBAD /* SYGViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 029B3A261702D979008EBBAD /* SYGViewController.xib */; };
-		029B3A2C1702E18D008EBBAD /* SYGView2Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 029B3A2A1702E18D008EBBAD /* SYGView2Controller.m */; };
-		029B3A2D1702E18D008EBBAD /* SYGView2Controller.xib in Resources */ = {isa = PBXBuildFile; fileRef = 029B3A2B1702E18D008EBBAD /* SYGView2Controller.xib */; };
+		029B3A321702F181008EBBAD /* SYGHomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 029B3A311702F180008EBBAD /* SYGHomeController.m */; };
+		029B3A351702F20C008EBBAD /* SYGHomeHeriController.m in Sources */ = {isa = PBXBuildFile; fileRef = 029B3A341702F20C008EBBAD /* SYGHomeHeriController.m */; };
+		029B3A3E1702F710008EBBAD /* SYGFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 029B3A3C1702F70F008EBBAD /* SYGFirstViewController.m */; };
+		029B3A3F1702F710008EBBAD /* SYGFirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 029B3A3D1702F70F008EBBAD /* SYGFirstViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0206771D1702F96800754689 /* SYGConentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYGConentViewController.h; sourceTree = "<group>"; };
+		0206771E1702F96800754689 /* SYGConentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYGConentViewController.m; sourceTree = "<group>"; };
+		0206771F1702F96800754689 /* SYGConentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SYGConentViewController.xib; sourceTree = "<group>"; };
 		029B39EB1702D870008EBBAD /* MoCai.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoCai.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		029B39EE1702D870008EBBAD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		029B39F01702D870008EBBAD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -37,12 +42,13 @@
 		029B3A161702D870008EBBAD /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		029B3A181702D870008EBBAD /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		029B3A231702D939008EBBAD /* SYGConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SYGConfig.h; sourceTree = "<group>"; };
-		029B3A241702D979008EBBAD /* SYGViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYGViewController.h; sourceTree = "<group>"; };
-		029B3A251702D979008EBBAD /* SYGViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYGViewController.m; sourceTree = "<group>"; };
-		029B3A261702D979008EBBAD /* SYGViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SYGViewController.xib; sourceTree = "<group>"; };
-		029B3A291702E18D008EBBAD /* SYGView2Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYGView2Controller.h; sourceTree = "<group>"; };
-		029B3A2A1702E18D008EBBAD /* SYGView2Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYGView2Controller.m; sourceTree = "<group>"; };
-		029B3A2B1702E18D008EBBAD /* SYGView2Controller.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SYGView2Controller.xib; sourceTree = "<group>"; };
+		029B3A301702F180008EBBAD /* SYGHomeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYGHomeController.h; sourceTree = "<group>"; };
+		029B3A311702F180008EBBAD /* SYGHomeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYGHomeController.m; sourceTree = "<group>"; };
+		029B3A331702F20B008EBBAD /* SYGHomeHeriController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYGHomeHeriController.h; sourceTree = "<group>"; };
+		029B3A341702F20C008EBBAD /* SYGHomeHeriController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYGHomeHeriController.m; sourceTree = "<group>"; };
+		029B3A3B1702F70F008EBBAD /* SYGFirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYGFirstViewController.h; sourceTree = "<group>"; };
+		029B3A3C1702F70F008EBBAD /* SYGFirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYGFirstViewController.m; sourceTree = "<group>"; };
+		029B3A3D1702F70F008EBBAD /* SYGFirstViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SYGFirstViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,12 +128,16 @@
 		029B3A2E1702E33C008EBBAD /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				029B3A241702D979008EBBAD /* SYGViewController.h */,
-				029B3A251702D979008EBBAD /* SYGViewController.m */,
-				029B3A291702E18D008EBBAD /* SYGView2Controller.h */,
-				029B3A2A1702E18D008EBBAD /* SYGView2Controller.m */,
-				029B3A2B1702E18D008EBBAD /* SYGView2Controller.xib */,
-				029B3A261702D979008EBBAD /* SYGViewController.xib */,
+				029B3A301702F180008EBBAD /* SYGHomeController.h */,
+				029B3A311702F180008EBBAD /* SYGHomeController.m */,
+				029B3A331702F20B008EBBAD /* SYGHomeHeriController.h */,
+				029B3A341702F20C008EBBAD /* SYGHomeHeriController.m */,
+				029B3A3B1702F70F008EBBAD /* SYGFirstViewController.h */,
+				029B3A3C1702F70F008EBBAD /* SYGFirstViewController.m */,
+				029B3A3D1702F70F008EBBAD /* SYGFirstViewController.xib */,
+				0206771D1702F96800754689 /* SYGConentViewController.h */,
+				0206771E1702F96800754689 /* SYGConentViewController.m */,
+				0206771F1702F96800754689 /* SYGConentViewController.xib */,
 			);
 			name = Home;
 			sourceTree = "<group>";
@@ -198,8 +208,8 @@
 				029B3A151702D870008EBBAD /* Default.png in Resources */,
 				029B3A171702D870008EBBAD /* Default@2x.png in Resources */,
 				029B3A191702D870008EBBAD /* Default-568h@2x.png in Resources */,
-				029B3A281702D979008EBBAD /* SYGViewController.xib in Resources */,
-				029B3A2D1702E18D008EBBAD /* SYGView2Controller.xib in Resources */,
+				029B3A3F1702F710008EBBAD /* SYGFirstViewController.xib in Resources */,
+				020677211702F96800754689 /* SYGConentViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,8 +222,10 @@
 			files = (
 				029B3A0F1702D870008EBBAD /* main.m in Sources */,
 				029B3A131702D870008EBBAD /* SYGAppDelegate.m in Sources */,
-				029B3A271702D979008EBBAD /* SYGViewController.m in Sources */,
-				029B3A2C1702E18D008EBBAD /* SYGView2Controller.m in Sources */,
+				029B3A321702F181008EBBAD /* SYGHomeController.m in Sources */,
+				029B3A351702F20C008EBBAD /* SYGHomeHeriController.m in Sources */,
+				029B3A3E1702F710008EBBAD /* SYGFirstViewController.m in Sources */,
+				020677201702F96800754689 /* SYGConentViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -366,6 +378,7 @@
 				029B3A221702D870008EBBAD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
