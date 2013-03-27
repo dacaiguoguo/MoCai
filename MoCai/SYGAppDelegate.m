@@ -29,6 +29,7 @@
     self.iTabBarViewController = [[[UITabBarController alloc] init] autorelease];
     _iTabBarViewController.viewControllers = @[iNavController];
     [iNavController release];
+    
     self.window.rootViewController = _iTabBarViewController;
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];

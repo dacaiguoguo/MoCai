@@ -6,4 +6,4 @@
 //  Copyright (c) 2013年 dacaiguoguo. All rights reserved.
 //
 
-#define RootClass @"SYGView2Controller"
+#define RootClass @"SYGViewController"
