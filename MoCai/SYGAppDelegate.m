@@ -7,7 +7,7 @@
 //
 
 #import "SYGAppDelegate.h"
-
+#import "SYGConfig.h"
 @implementation SYGAppDelegate
 
 - (void)dealloc
@@ -20,6 +20,10 @@
 {
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
     // Override point for customization after application launch.
+    
+    UIViewController *viewController = [[NSClassFromString(RootClass) alloc] initWithNibName:RootClass bundle:nil];
+    self.window.rootViewController = viewController;
+    [viewController release];
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;

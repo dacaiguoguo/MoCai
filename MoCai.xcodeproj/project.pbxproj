@@ -27,6 +27,8 @@
 		029B3A171702D870008EBBAD /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 029B3A161702D870008EBBAD /* Default@2x.png */; };
 		029B3A191702D870008EBBAD /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 029B3A181702D870008EBBAD /* Default-568h@2x.png */; };
 		029B3A1D1702D870008EBBAD /* a.png in Resources */ = {isa = PBXBuildFile; fileRef = 029B3A1C1702D870008EBBAD /* a.png */; };
+		029B3A271702D979008EBBAD /* SYGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 029B3A251702D979008EBBAD /* SYGViewController.m */; };
+		029B3A281702D979008EBBAD /* SYGViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 029B3A261702D979008EBBAD /* SYGViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +56,10 @@
 		029B3A161702D870008EBBAD /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		029B3A181702D870008EBBAD /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		029B3A1C1702D870008EBBAD /* a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = a.png; path = Classes/VC/a.png; sourceTree = "<group>"; };
+		029B3A231702D939008EBBAD /* SYGConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SYGConfig.h; sourceTree = "<group>"; };
+		029B3A241702D979008EBBAD /* SYGViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYGViewController.h; sourceTree = "<group>"; };
+		029B3A251702D979008EBBAD /* SYGViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYGViewController.m; sourceTree = "<group>"; };
+		029B3A261702D979008EBBAD /* SYGViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SYGViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,8 +133,12 @@
 		029B3A081702D870008EBBAD /* MoCai */ = {
 			isa = PBXGroup;
 			children = (
+				029B3A231702D939008EBBAD /* SYGConfig.h */,
 				029B3A111702D870008EBBAD /* SYGAppDelegate.h */,
 				029B3A121702D870008EBBAD /* SYGAppDelegate.m */,
+				029B3A241702D979008EBBAD /* SYGViewController.h */,
+				029B3A251702D979008EBBAD /* SYGViewController.m */,
+				029B3A261702D979008EBBAD /* SYGViewController.xib */,
 				029B3A1A1702D870008EBBAD /* Classes */,
 				029B3A091702D870008EBBAD /* Supporting Files */,
 			);
@@ -225,6 +235,7 @@
 				029B3A171702D870008EBBAD /* Default@2x.png in Resources */,
 				029B3A191702D870008EBBAD /* Default-568h@2x.png in Resources */,
 				029B3A1D1702D870008EBBAD /* a.png in Resources */,
+				029B3A281702D979008EBBAD /* SYGViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +264,7 @@
 			files = (
 				029B3A0F1702D870008EBBAD /* main.m in Sources */,
 				029B3A131702D870008EBBAD /* SYGAppDelegate.m in Sources */,
+				029B3A271702D979008EBBAD /* SYGViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
